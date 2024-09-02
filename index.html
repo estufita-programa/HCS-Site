@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="source/css/header-footer.css">
+        <link rel="stylesheet" href="source/css/style.css">
+        <link rel="stylesheet" href="source/css/slider.css">
+        <link rel="stylesheet" href="source/css/media_desktop.css">
+        <script src="source/javascript/animation.js"></script>
+        <title>HCS</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="source/img/logo/logo.png" id="logo_desktop"  alt="logo_hcs">
+                <img src="source/img/logo/logo_mobile.png" id="logo_mobile" alt="">
+            </div>
+            <div class="contacto">
+                <a href="">
+                    <img src="source/img/nav-footer/contacto.png" alt="" id="contacto">
+                </a>
+                <a href="https://www.instagram.com/hcsdigitalcommerce/">
+                    <img src="source/img/nav-footer/ig.png" alt="" id="ig">
+                </a>
+                <a href="https://www.linkedin.com/company/hcs-consulting/">
+                    <img src="source/img/nav-footer/linkedin.png" alt="" id="linkedin">
+                </a>
+            </div>
+        </header>
+        <main>
+            <img src="source/img/main/main.png" id="main_desktop" alt="">
+            <img src="source/img/main/main_mobile.png" id="main_mobile" alt="">
+            <section class="main-grid">
+                <div class="grid--col">
+                    <div class="numbers">
+                        <h1>+</h1>
+                        <h1 class="numbers--grid" id="cont">0</h1>
+                    </div>
+                    <h3>Clientes<br>satisfechos</h3>
+                </div>
+                <div class="grid--col">
+                    <div class="numbers">
+                        <h1>+</h1>
+                        <h1 class="numbers--grid" id="cont1">0</h1>
+                    </div>
+                    <h3>Industrias<br>atendidas</h3>
+                </div>
+                <div class="grid--col">
+                    <div class="numbers">
+                        <h1>+</h1>
+                        <h1 class="numbers--grid" id="cont2">0</h1>
+                    </div>
+                    <h3>Cuentas<br>regionales</h3>
+                </div>
+                <div class="grid--col">
+                    <div class="numbers">
+                        <h1>+</h1>
+                        <h1 class="numbers--grid" id="cont3">0</h1>
+                    </div>
+                    <h3>Campañas<br>realizadas</h3>
+                </div>
+            </section>
+        </main>
+        <!--! gallery -->
+        <div class="decoration">
+            <img src="source/img/decoracion/Tringulo.png" alt="">
+        </div>
+        <div class="decoration--two">
+            <img src="source/img/decoracion/circulo.png" alt="">
+            <img src="source/img/decoracion/circulo.png" id="circulo-dos" alt="">
+        </div>
+        <section class="info-gallery">
+            <div class="grid-gallery">
+                <div class="gallery">
+                    <figure>
+                        <img src="source/img/gallery/gallery1.png" alt="">
+                        <img src="source/img/gallery/gallery2.png" alt="">
+                        <img src="source/img/gallery/gallery3.png" alt="">
+                        <img src="source/img/gallery/gallery4.png" alt="">
+                        <img src="source/img/gallery/gallery1.png" alt="">
+                    </figure>
+                </div>
+                <div class="texto--square">
+                    <div class="text">
+                        <p>En HCS Digital Commerce, nos especializamos en el go-to-market digital, ayudando a nuestros clientes a acelerar su  presencia en el mundo digital y alcanzar sus objetivos comerciales de manera efectiva y sostenible. No somos solo una agencia de marketing digital; somos tu socio estratégico en el camino hacia el éxito <b>comercial.</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="decoration--three">
+                <img src="source/img/decoracion/Triangulos.png" alt="">
+            </div>
+        </section>
+        <!--! servicios -->
+        <section class="section--servicios">
+            <section class="container--servicios">
+                <div class="texto--servicios">
+                    <h1>Nuestros servicios</h1>
+                </div>
+                <div class="grid--servicios">
+                    <div class="grid--title">
+                        <h3 class="active-title" onclick="showContent(0)">Estrategia digital</h3>
+                        <h3 onclick="showContent(1)">Desarrollo de e-commerce</h3>
+                        <h3 onclick="showContent(2)">Optimización de Conversión</h3>
+                        <h3 onclick="showContent(3)">UX y Diseño Gráfico</h3>
+                    </div>
+                    <div class="grid--contenido">
+                        <div class="grid--title-p content active" id="content0">
+                            <p id="estrategia">Desarrollamos estrategias personalizadas para maximizar tu presencia en línea y llegar a tu audiencia objetivo de manera efectiva.</p>
+                        </div>
+                        <div class="grid--title-p content" id="content1">
+                            <p id="e-commerce">Creamos experiencias de compra en línea excepcionales que convierten visitantes en clientes leales.</p>
+                        </div>
+                        <div class="grid--title-p content" id="content2">
+                            <p id="optimizacion">Utilizamos análisis detallados y técnicas avanzadas para mejorar la tasa de conversión y maximizar el retorno de la inversión.</p>
+                        </div>
+                        <div class="grid--title-p content" id="content3">
+                            <p id="ux">Fusionamos creatividad y usabilidad para diseñar experiencias visuales atractivas e intuitivas, que fortalecen tu marca y convierten visitantes en clientes leales.</p>
+                        </div>
+                    </div>
+                    <div class="imagen--servicios">
+                        <img src="source/img/gallery_servicios/1_servicios.png" alt="imagen-estrategia" id="imagen0" class="active">
+                        <img src="source/img/gallery_servicios/2_servicios.png" alt="imagen-ecommerce" id="imagen1">
+                        <img src="source/img/gallery_servicios/3_servicios.png" alt="imagen-ux" id="imagen2">
+                        <img src="source/img/gallery_servicios/4_servicios.png" alt="imagen-optimizacion" id="imagen3">
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div class="decoration--four">
+            <img src="source/img/decoracion/Asterizco.png" alt="">
+        </div>
+        <!--! trabajos -->
+        <div class="decoration--five">
+            <img src="source/img/decoracion/Puntitos.png" alt="">
+        </div>
+        <section class="trabajos--destacados">
+            <div class="contenedor--trabajos">
+                <div class="title--trabajos">
+                    <h1>Trabajos destacados</h1>
+                </div>
+                <div class="trabajos--contenido">
+                    <div class="disney" onmouseover="showImage('img-disney')" onmouseout="hideImage('img-disney')">
+                        <div class="title-disney">
+                            <h1>Disney</h1>
+                            <div class="flechas">
+                                <span>&gt;</span>
+                                <span>&gt;</span>
+                                <span>&gt;</span>
+                                <span>&gt;</span>
+                            </div>
+                            <p>Desarrollo de E-commerce personalizado y optimización de la experiencia del usuario.</p>
+                            <!-- <div class="decoration--trabajos">
+                                <img src="source/img/decoracion/____.png" alt="">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="nike" onmouseover="showImage('img-nike')" onmouseout="hideImage('img-nike')">
+                        <div class="title-nike">
+                            <h1>Nike</h1>
+                            <div class="flechas">
+                                <span>&gt;</span>
+                                <span>&gt;</span>
+                                <span>&gt;</span>
+                                <span>&gt;</span>
+                            </div>
+                            <p>Estrategia de Marketing Digital y campañas creativas.</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="conagra" onmouseover="showImage('img-conagra')" onmouseout="hideImage('img-conagra')">
+                        <div class="title-conagra">
+                            <h1>Conagra</h1>
+                            <div class="flechas">
+                                <span>&gt;</span>
+                                <span>&gt;</span>
+                                <span>&gt;</span>
+                                <span>&gt;</span>
+                            </div>
+                            <p>Estrategía y optimización para recursos de E-commerce</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+                <div class="gallery--trabajos">
+                        <img src="source/img/trabajos/Disney 2.png" alt="IMAGEN 1" class="gallery-img img-disney">
+                        <img src="source/img/trabajos/Nike.png" alt="IMAGEN 2" class="gallery-img img-nike" id="nike">
+                        <img src="source/img/trabajos/conagra.png" alt="IMAGEN 3" id="conagra" class="gallery-img img-conagra">
+                </div>
+            </div>
+        </section>
+        <div class="decoration--six">
+            <img src="source/img/decoracion/Tringulo.png" alt="">
+        </div>
+
+        <!--! Alianzas -->
+        <div class="decoration--seven">
+            <img src="source/img/decoracion/Rectangulo.png" alt="">
+        </div>
+        <section class="alianzas">
+            <div class="container--alianzas">
+                <div class="title--alianzas">
+                    <h1>Alianzas</h1>
+                    <h1 id="title--2">Estratégicas</h1>
+                </div>
+                <div class="grid--alianzas">
+                    <div class="alianza1 alianza">
+                        <img src="source/img/gallery_alianzas/balloon.png" alt="">
+                    </div>
+                    <div class="alianza2 alianza">
+                        <img src="source/img/gallery_alianzas/amazon.png" alt="">
+                    </div>
+                    <div class="alianza3 alianza">
+                        <img src="source/img/gallery_alianzas/growlat.png" alt="">
+                    </div>
+                    <div class="alianza4 alianza">
+                        <img src="source/img/gallery_alianzas/producteca.png" alt="">
+                    </div>
+                    <div class="alianza5 alianza">
+                        <img src="source/img/gallery_alianzas/mercardolibre.png" alt="">
+                    </div>
+                    <div class="alianza6 alianza">
+                        <img src="source/img/gallery_alianzas/ventiapp.png" alt="">
+                    </div>
+                    <div class="alianza7 alianza">
+                        <img src="source/img/gallery_alianzas/shopify.png" alt="">
+                    </div>
+                    <div class="alianza8 alianza">
+                        <img src="source/img/gallery_alianzas/datahawk.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trabajar en HCS -->
+         <div class="decoration--eight">
+            <img src="source/img/decoracion/Triangulos.png" alt="">
+         </div>
+        <section class="trabajar">
+            <div class="container--trabajar">
+                <div class="title--trabajar">
+                    <h1>¿Qué significa</h1>
+                    <h1 id="title--trabajar2">trabajar en HCS?</h1>
+                </div>
+                <div class="grid--trabajar">
+                    <div class="img-trabajar">
+                        <img src="source/img/trabajar.png" alt="">
+                    </div>
+                    <div class="trabajar--cols container--cols">
+                        <div class="cols block" id="block1">
+                            <h3>Colaboración</h3>
+                            <div class="content">
+                                <img src="source/img/decoracion/Line 4.png" alt="" id="div">
+                                <p>Fomentamos un ambiente de trabajo donde la colaboración y la comunicación son clave. Nos esforzamos por construir relaciones sólidas entre colegas y equipos, creando un sentido de comunidad y apoyo mutuo.</p>
+                            </div>
+                        </div>
+                        <div class="cols block" id="block2">
+                            <h3>Crecimiento</h3>
+                            <div class="content">
+                                <img src="source/img/decoracion/Line 4.png" alt="" id="div">
+                                <p>Impulsamos el desarrollo profesional y personal de nuestro equipo. Creemos en la importancia de aprender y mejorar continuamente, ofreciendo oportunidades para crecer dentro de la empresa y enfrentar nuevos desafíos.</p>
+                            </div>
+                        </div>
+                        <div class="cols  block" id="block3">
+                            <h3>Equilibrio</h3>
+                            <div class="content">
+                                <img src="source/img/decoracion/Line 4.png" alt="" id="div">
+                                <p>Valoramos el equilibrio entre la vida laboral y personal. Promovemos un ambiente de trabajo que respeta el tiempo y el bienestar de nuestros colaboradores, asegurando que tengan el espacio necesario para prosperar tanto dentro como fuera del trabajo.</p>
+                            </div>
+                        </div>
+                        <div class="paragraph--btn">
+                            <p><a id="postulate-btn" href="https://wkf.ms/3V4ojQF">Postúlate</a></p>
+                            <img src="source/img/btn/Arrow 2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="decoration--nine">
+            <img src="source/img/decoracion/Ovalos.png" alt="">
+        </div>
+    </body>
+    <footer>
+        <div class="background">
+            <img src="source/img/nav-footer/footer-1.png" id="background-footer" alt="">
+            <img src="source/img/nav-footer/footer-btn.png" id="background-btn" alt="">
+        </div>
+        <section class="container--footer">
+            <div class="contenido">
+                <h1>Escala tu negocio junto a tu nuevo partner comercial</h1>
+            </div>
+            <div class="decoration--ten">
+                <img src="source/img/decoracion/Puntitos.png" alt="" id="puntitos">
+                <img src="source/img/decoracion/attach_email.png" alt="" id="email">
+            </div>
+        </section>
+        <div class="btn--contacto">
+            <h3>Envíanos un correo a: hello@hcsmarketing.com</h3>
+            <a href="">
+                <div class="btn">
+                    <h1>contacto</h1>
+                    <img src="source/img/btn/arrow-footer.png" alt="">
+                </div> 
+            </a>  
+        </div>
+    </footer>
+</html>

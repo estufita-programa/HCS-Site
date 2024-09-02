@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sora";
+}
+:root{
+    --primary: #DD0A5C;
+    --secondary: #1A3BC6;
+    --text-secondary: #191E26;
+    --text-primary: #FFFFFF;
+    --background: #ECECED;
+    --footer: #191E26;
+}
+body{
+    background: var(--background);
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #393E44;
+    color: var(--text-primary);
+    position: fixed;
+    z-index: 99;
+}
+h1{
+    color: #393E44;
+}
+.contacto{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.contacto > a > img#contacto{
+    width: 39px;
+    height: 27px;
+}
+.contacto > a >img#ig, .contacto > a > img#linkedin{
+    width: 37px;
+}
+    nav > ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+            nav > ul > li{
+                display: flex;
+                align-items: center;
+            }
+
+            @media screen and (max-width: 450px) {
+    
+                footer{
+                    width: 100%;
+                }
+                .background{
+                    width: 100%;
+                    display: flex;
+                    position: absolute;
+                    align-items: flex-end;
+                    padding: 45px 15px 50px 15px;
+                }
+                    .background > img#background-footer{
+                        width: 100%;
+                        height: 250px;
+                        z-index: -1;
+                    }
+                        .background > img#background-btn{
+                            right: 15px;
+                            width: 27%;
+                            height: 75px;
+                            position: absolute;
+                        }
+                    .container--footer{
+                        display: flex;
+                        gap: 40px;
+                        padding: 45px 20px 0 30px;
+                    }
+                            .contenido{
+                                width: 600px;
+                                height: 200px;
+                                padding-top: 28px;
+                            }
+                                .contenido > h1{
+                                    font-size: 20px!important;
+                                }
+                                .contenido > h1, .btn--contacto > h3, .btn > h1{
+                                    line-height: 20px;
+                                    color: var(--text-primary);
+                                }
+                            .decoration--ten{
+                                display: flex;
+                                align-items: flex-start;
+                            }
+                                .decoration--ten > img#puntitos{
+                                    width: 32px;
+                                    height: 150px;
+                                }
+                                .decoration--ten > img#email{
+                                    width: 90px;
+                                    padding-top: 32px;
+                                }
+                            .btn--contacto{
+                                top: -50px;
+                                display: flex;
+                                position: relative;
+                                align-items: center;
+                                padding: 0 30px;
+                            }
+                            .btn--contacto > h3{
+                                font-size: 10px!important;
+                                padding-right: 60px;
+                            }
+                            a{
+                                text-decoration: none;
+                            }
+                            a#postulate-btn{
+                                color: var(--primary);
+                            }
+                                .btn{
+                                    top: 35px;
+                                    position: relative;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    text-decoration: none;
+                                }
+                                    .btn > h1{
+                                        font-size: 20px!important;
+                                    }
+                }

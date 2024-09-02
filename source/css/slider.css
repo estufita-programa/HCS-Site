@@ -1,0 +1,39 @@
+.gallery {
+    clip-path: polygon(21% 0, 99% 0, 99% 13%, 80% 100%, 1% 100%, 1% 88%, 21% 0);
+    padding: 17px 22px;
+    overflow: hidden;
+    z-index: -1;
+    background-color: var(--primary);
+}
+
+.gallery > img {
+    max-width: 670px;
+    max-height: 497px;
+}
+
+div.gallery figure img {
+    width: 20%;
+    float: left;
+}
+
+div.gallery figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 8s slidy infinite linear;
+}
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
